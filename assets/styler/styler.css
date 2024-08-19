@@ -11,7 +11,6 @@
     background-color: #fff;
     height: 56px;
     padding: 0 24px;
-    border: 1px solid red;
 }
 
 .search {
@@ -49,4 +48,31 @@
 .icon-user img {
     width: 34px;
     border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.screen-video iframe {
+    display: flex;
+    width: 952px;
+    height: 537px;
+}
+
+.title-video-principal {
+    font-size: 20px;
+}
+
+.videos-rel {
+    display: flex;
+}
+
+.infor-video-rel {
+    width: 196px;
+    height: 89px;
 }
