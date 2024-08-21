@@ -5,7 +5,7 @@ Este projeto é uma reprodução da página inicial do YouTube utilizando HTML e
 HTML5: Estrutura do conteúdo da página.
 CSS3: Estilização e layout.
 
-##📸 Screenshots
+## 📸 Screenshots
 ![youtube](https://github.com/user-attachments/assets/12dc463a-2d98-49f3-9e04-b49b110b54a3)
 
 ## 🎯 Objetivos
