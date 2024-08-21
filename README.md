@@ -9,6 +9,6 @@ CSS3: Estilização e layout.
 ![youtube](https://github.com/user-attachments/assets/12dc463a-2d98-49f3-9e04-b49b110b54a3)
 
 ## 🎯 Objetivos
-Praticar o uso de HTML e CSS.
-Reproduzir a interface do YouTube.
-Aprender a trabalhar com Flex-box.
+### Praticar o uso de HTML e CSS.
+### Reproduzir a interface do YouTube.
+### Aprender a trabalhar com Flex-box.
