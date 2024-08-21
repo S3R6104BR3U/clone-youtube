@@ -1,8 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Roboto", sans-serif;
+    
 }
+
+
 
 .bar-top {
     display: flex;
@@ -34,7 +39,13 @@
     align-items: center;
     width: 57px;
     height: 40px;
-    border: 1px solid #ccc;
+    background-color: #F8F8F8;
+    border: 1px solid #cccccc;
+    border-left: 0;
+}
+
+.icon-search:active {
+    background-color: #cccccc;
 }
 
 .icons {
@@ -52,10 +63,17 @@
 
 .container {
     display: flex;
-    justify-content: space-between;
-    height: 100vh;
+    justify-content: center;
+    height: 100%;
     padding: 30px;
     background-color: #f9f9f9;
+    gap: 40px;
+}
+
+.screen-video {
+   display: flex;
+   flex-direction: column;
+   width: 952px;
 }
 
 .screen-video iframe {
@@ -65,14 +83,144 @@
 }
 
 .title-video-principal {
+    font-style: normal;
+    font-weight: 600;
     font-size: 20px;
+    margin: 10px 0;
+}
+
+.bar-video-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+    height: 42px;
+}
+
+.logo-channel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 42px;
+    font-size: 14px;
+}
+
+.logo-channel div {
+    width: 106px;
+    height: 32px;
+}
+
+.name-canal-logo {
+    color: #000000;
+    font-weight: 600;
+}
+
+.number-subscribed {
+    color: #515151;
+}
+
+.subscribe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.subscribe-button:hover {
+    background-color: #df5454;
+    cursor: pointer;
+}
+
+.thumbs-up {
+    width: 63px;
+    height: 24px;
+}
+
+.thumbs-down {
+    width: 100px;
+    height: 24px;
+}
+
+.share {
+    width: 115px;
+    height: 24px;
+}
+
+.download {
+    width: 95px;
+    height: 24px;
+}
+
+.thumbs-up, .thumbs-down, .share, .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.icon-search,
+.icon-video,
+.icon-bell,
+.icon-user, 
+.thumbs-up, 
+.thumbs-down, 
+.share, 
+.download,
+.video-rel:hover {
+    cursor: pointer;
+}
+
+.description-main-video {
+    width: 510px;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #515151;
+}
+
+.views-main {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
 }
 
 .videos-rel {
     display: flex;
+    flex-direction: column;
+}
+
+.video-rel {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
 }
 
 .infor-video-rel {
     width: 196px;
     height: 89px;
 }
+
+.title-video-rel {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.name-canal {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+    padding: 5px 0;
+}
+
+.views, .date {
+    font-size: 12px;
+    font-weight: 400;
+    color: #515151;
+}
+
+
